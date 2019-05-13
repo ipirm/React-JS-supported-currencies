@@ -1,0 +1,32 @@
+.wrapper {
+  background: $colorBackground;
+  margin: 10px 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.wrapperBlock {
+  margin: 0 15px;
+  width: 100%;
+  margin-top: -70px;
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+
+.wrapperBlock img {
+  max-width: 110px;
+  display: inline-block;
+}
+
+.wrapperBlock h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.wrapperBlock p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}

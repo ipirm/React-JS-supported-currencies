@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="97px" viewBox="0 0 88 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#A86EBA" offset="0%"></stop>
+            <stop stop-color="#798CE6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40,0 C47.6190476,2.28205128 60.952381,5.70512821 80,10.2692308 C80,53.94169 66.6666667,80.1852798 40,89 C13.3333333,80.1852798 1.20187275e-15,53.94169 0,10.2692308 C19.047619,5.70512821 32.3809524,2.28205128 40,0 Z" id="path-2"></path>
+        <filter x="-6.2%" y="-5.6%" width="117.5%" height="115.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.521568627   0 0 0 0 0.517647059   0 0 0 0 0.878431373  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lp-1" transform="translate(-993.000000, -2429.000000)">
+            <g id="choose" transform="translate(0.000000, 2271.000000)">
+                <g id="search" transform="translate(995.000000, 160.000000)">
+                    <g id="Combined-Shape-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="8" d="M40,4.17162234 C32.593584,6.34071182 20.612635,9.41873807 4.02376188,13.416238 C4.6266645,52.9225901 16.7003674,76.3977527 40,84.7692476 C63.2996326,76.3977527 75.3733355,52.9225901 75.9762381,13.416238 C59.387365,9.41873807 47.406416,6.34071182 40,4.17162234 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="Group-16" transform="translate(26.000000, 25.000000)" fill-rule="nonzero">
+                        <g id="Group-17" transform="translate(16.341618, 16.923453) rotate(-40.000000) translate(-16.341618, -16.923453) translate(7.341618, 2.423453)">
+                            <rect id="Rectangle-21" fill="#FFFFFF" x="7.5721239" y="16.6604444" width="3" height="12" rx="1"></rect>
+                            <circle id="Oval-8" stroke="#FFFFFF" stroke-width="3" cx="9.0721239" cy="9.16044443" r="8.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

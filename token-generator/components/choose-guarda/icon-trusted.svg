@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="97px" viewBox="0 0 88 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>trusted</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#A86EBA" offset="0%"></stop>
+            <stop stop-color="#798CE6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40,0 C47.6190476,2.28571429 60.952381,5.71428571 80,10.2857143 C80,54.0282738 66.6666667,80.3139881 40,89.1428571 C13.3333333,80.3139881 1.20187275e-15,54.0282738 0,10.2857143 C19.047619,5.71428571 32.3809524,2.28571429 40,0 Z" id="path-2"></path>
+        <filter x="-6.2%" y="-5.6%" width="117.5%" height="115.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.521568627   0 0 0 0 0.517647059   0 0 0 0 0.878431373  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lp-1" transform="translate(-215.000000, -2429.000000)">
+            <g id="choose" transform="translate(0.000000, 2271.000000)">
+                <g id="trusted" transform="translate(217.000000, 160.000000)">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="8" d="M40,4.172157 C32.5931277,6.34479739 20.6121579,9.42774166 4.02366649,13.4315543 C4.62541419,53.0074132 16.7000917,76.5252486 40,84.911355 C63.2999083,76.5252486 75.3745858,53.0074132 75.9763335,13.4315543 C59.3878421,9.42774166 47.4068723,6.34479739 40,4.172157 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                    </g>
+                    <polyline id="Path-5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="30.8571429 41.1428571 38.8571429 51.4285714 53.7142857 33.1428571"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

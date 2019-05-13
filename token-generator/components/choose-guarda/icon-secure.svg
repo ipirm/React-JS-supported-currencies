@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="97px" viewBox="0 0 88 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>secure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#A86EBA" offset="0%"></stop>
+            <stop stop-color="#798CE6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40,0 C47.6190476,2.28571429 60.952381,5.71428571 80,10.2857143 C80,54.0282738 66.6666667,80.3139881 40,89.1428571 C13.3333333,80.3139881 1.20187275e-15,54.0282738 0,10.2857143 C19.047619,5.71428571 32.3809524,2.28571429 40,0 Z" id="path-2"></path>
+        <filter x="-6.2%" y="-5.6%" width="117.5%" height="115.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.521568627   0 0 0 0 0.517647059   0 0 0 0 0.878431373  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lp-1" transform="translate(-598.000000, -2429.000000)">
+            <g id="choose" transform="translate(0.000000, 2271.000000)">
+                <g id="secure" transform="translate(600.000000, 160.000000)">
+                    <g id="Combined-Shape-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <path stroke="#FFFFFF" stroke-width="8" d="M40,4.172157 C32.5931277,6.34479739 20.6121579,9.42774166 4.02366649,13.4315543 C4.62541419,53.0074132 16.7000917,76.5252486 40,84.911355 C63.2999083,76.5252486 75.3745858,53.0074132 75.9763335,13.4315543 C59.3878421,9.42774166 47.4068723,6.34479739 40,4.172157 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+                    </g>
+                    <path d="M39,45.7324356 C38.4021986,45.3866262 38,44.7402824 38,44 C38,42.8954305 38.8954305,42 40,42 C41.1045695,42 42,42.8954305 42,44 C42,44.7402824 41.5978014,45.3866262 41,45.7324356 L41,47 C41,47.5522847 40.5522847,48 40,48 C39.4477153,48 39,47.5522847 39,47 L39,45.7324356 Z M46.75,35.5 L48,35.5 C49.9329966,35.5 51.5,37.0670034 51.5,39 L51.5,50 C51.5,51.9329966 49.9329966,53.5 48,53.5 L32,53.5 C30.0670034,53.5 28.5,51.9329966 28.5,50 L28.5,39 C28.5,37.0670034 30.0670034,35.5 32,35.5 L33.25,35.5 L33.25,32 C33.25,28.6862915 36.2720779,26 40,26 C43.7279221,26 46.75,28.6862915 46.75,32 L46.75,35.5 Z M43.75,35.5 L43.75,32 C43.75,30.3431458 42.0710678,29 40,29 C37.9289322,29 36.25,30.3431458 36.25,32 L36.25,35.5 L43.75,35.5 Z M32,38.5 C31.7238576,38.5 31.5,38.7238576 31.5,39 L31.5,50 C31.5,50.2761424 31.7238576,50.5 32,50.5 L48,50.5 C48.2761424,50.5 48.5,50.2761424 48.5,50 L48.5,39 C48.5,38.7238576 48.2761424,38.5 48,38.5 L32,38.5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

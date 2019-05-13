@@ -1,0 +1,95 @@
+.centerContainer {
+  width: 480px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.containerHeading {
+  margin-top: 20px;
+}
+
+.whiteBlock {
+  background-color: white;
+  padding: 30px 40px 20px;
+  width: 100%;
+}
+
+.whiteBlock h2 {
+  color: $colorBluePrimary;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.whiteBlock h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: $colorTextPrimary;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.whiteBlock p {
+  margin-bottom: 40px;
+}
+
+.whiteBlock h3 + p {
+  margin-top: 5px;
+}
+
+.buttonsWrapper {
+  width: 100%;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.container > .items {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container > .items > .item {
+  margin-bottom: 10px;
+}
+
+.item > a::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: $colorBlue;
+  margin-right: 6px;
+  margin-bottom: 3px;
+}
+
+.whiteBlock a {
+  color: $colorBlue;
+}
+
+.whiteBlock .inactive {
+  color: $colorGray;
+  cursor: default;
+}
+
+.item > a.inactive::before {
+  background-color: $colorGray;
+}
+
+.item > a.inactive:hover {
+  text-decoration: none;
+}

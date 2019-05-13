@@ -1,0 +1,61 @@
+.slider {
+  max-width: 100%;
+}
+
+.descSlide {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 50px;
+  height: 100px;
+}
+
+.descSlide h4 {
+  font-size: 24px;
+  color: $colorBluePrimary;
+}
+
+.slide {
+  display: inline-block;
+  height: 500px;
+  width: 100%;
+  background: white;
+  transition: background-image 0.1s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrows {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.arrowRight,
+.arrowLeft {
+  display: inline-block;
+  background: #e3e7f9 center no-repeat;
+  background-size: 40%;
+  top: 50%;
+  width: 50px;
+  margin: 0 5px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 0.1s;
+  z-index: 3;
+}
+
+.arrowRight:hover,
+.arrowLeft:hover {
+  background-color: $colorBluePrimary;
+}
+
+.arrowRight {
+  background-image: url('src/shared/components/global/slider/icon-next.svg');
+}
+
+.arrowLeft {
+  background-image: url('src/shared/components/global/slider/icon-prev.svg');
+}

@@ -1,0 +1,60 @@
+.poster {
+  width: 100%;
+  color: white;
+  padding-top: 20px !important;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.poster h1 {
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.poster h2 {
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  line-height: 35px;
+}
+
+.poster p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.webWalletImage {
+  width: 687px;
+  height: 434px;
+  background: url(./token-generator.png) no-repeat;
+  background-size: 100%;
+  float: right;
+  margin-top: 70px;
+}
+
+.blocks {
+  display: block;
+  margin-bottom: 70px;
+}
+
+.functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.functions span {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.functions span img {
+  margin-right: 15px;
+  max-width: 35px;
+  max-height: 35px;
+}

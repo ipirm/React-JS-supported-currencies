@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 50px 0;
+}
+
+.wrapper h2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.wrapper h2 b {
+  font-weight: normal;
+}
+
+.wrapperBlock {
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.wrapperBlock img {
+  height: 50px;
+  display: inline-block;
+}
+
+.wrapperBlock h4 {
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: normal;
+  margin-bottom: 0;
+}

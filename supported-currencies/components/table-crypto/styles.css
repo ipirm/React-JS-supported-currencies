@@ -1,0 +1,37 @@
+.table {
+  composes: table from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+  margin-bottom: 50px;
+}
+
+.title {
+  composes: title from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+}
+
+.title a {
+  color: $colorBluePrimary;
+}
+
+.ticker {
+  composes: ticker from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+}
+
+.dotWrapper {
+  composes: dotWrapper from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+}
+
+.dotIcon {
+  composes: dotIcon from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+}
+
+.iconCol {
+  composes: iconCol from 'src/shared/pages/hardware-wallets/components/table-crypto/styles.css';
+}
+
+.dotWrapper > a {
+  color: $colorBlue;
+}
+
+.iconCurrency {
+  font-size: 32px;
+  color: $colorBluePrimary;
+}
